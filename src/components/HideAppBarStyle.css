@@ -1,0 +1,50 @@
+.AppBarTitle{
+    color: black;  
+    padding-top: 50px; 
+    font-size: 1.7rem;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+
+@media only screen and (min-width: 902px){
+
+    .AppBarTitle{
+        color: black;  
+        padding-top: 50px; 
+        font-size: 1.7rem;
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-around;
+    }
+    h2{
+        padding-right: 100px;
+    }
+    /* .LetterAvatars{
+        padding-left: 25%;
+    } */
+}
+@media only screen and (max-width: 800px){
+    .AppBarTitle{
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-bottom: 200px;
+    }
+    h2{
+        margin-bottom: 50px;
+        border-bottom: 10px dashed darkOrange;
+    }
+    .BoxColor{
+        color: #00FA9A;
+        font-size: 1.3em;
+        padding-top: 60px;
+    }
+}
+
+.BoxColor{
+    color: #00FA9A;
+    font-size: 1.3em;
+}
