@@ -11,11 +11,12 @@ import ImageAvatars from './components/ImageAvatars';
 function App() {
   return (
     <div className="App">
+      
      <HideAppBar/>
-     <div style={{display: 'flex', paddingBottom: '50px', marginTop: '25px', marginBottom: '50px',  borderRight: '10px dashed #00FA9A', borderBottom: '10px dashed #00FA9A', marginLeft: '60px', marginRight: '50px', WebkitBorderBottomRightRadius: '2rem'}}>
-     <SingleLineGridList/>
-      <h2 style={{ position: 'relative', top: '150px', left: '-200px', width: '350px'}}>Success is about building a future.</h2>
+     <div className="avatar">
+       <ImageAvatars/>
      </div>
+     
      
      <div className="divider">
      <HorizontalLinearStepper/>
@@ -32,8 +33,9 @@ function App() {
        
        
      </div>
-     <div className="avatar">
-       <ImageAvatars/>
+     <div style={{display: 'flex', paddingBottom: '50px', marginTop: '25px', marginBottom: '50px',  borderRight: '10px dashed #00FA9A', borderBottom: '10px dashed #00FA9A', marginLeft: '60px', marginRight: '50px', WebkitBorderBottomRightRadius: '2rem'}}>
+     <SingleLineGridList/>
+      <h2 style={{ position: 'relative', top: '150px', left: '-200px', width: '350px'}}>Success is about building a future.</h2>
      </div>
      
     </div>
